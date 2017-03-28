@@ -21,6 +21,50 @@ android {
         }
     }
 
+    productFlavors {
+        flavor_yingyongbao {
+            manifestPlaceholders = [ChannelLabel: "a-yingyongbao"]
+        }
+
+        flavor_360 {
+            manifestPlaceholders = [ChannelLabel: "a-360"]
+        }
+
+        flavor_huawei {
+            manifestPlaceholders = [ChannelLabel: "a-huawei"]
+        }
+
+        flavor_xiaomi {
+            manifestPlaceholders = [ChannelLabel: "a-xiaomi"]
+        }
+
+        flavor_baidu {
+            manifestPlaceholders = [ChannelLabel: "a-baidu"]
+        }
+
+        flavor_sougou {
+            manifestPlaceholders = [ChannelLabel: "a-sougou"]
+        }
+
+        flavor_meizu {
+            manifestPlaceholders = [ChannelLabel: "a-meizu"]
+        }
+
+        flavor_pp {
+            manifestPlaceholders = [ChannelLabel: "a-pp"]
+        }
+
+        flavor_update {
+            manifestPlaceholders = [ChannelLabel: "a-update"]
+        }
+
+        flavor_leshi {
+            manifestPlaceholders = [ChannelLabel: "a-leshi"]
+        }
+
+    }
+
+
     buildTypes {
         release {
             minifyEnabled false
